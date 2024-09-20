@@ -1,0 +1,110 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body{
+  background-color: #6b9bc7;
+  color: #383a3b;
+  font-family: Open Sans;
+  font-weight: bold;
+}
+
+#container{
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+}
+#name{
+  font-size: 24pt;
+}
+#job{
+  font-size: 15pt;
+  margin-bottom: 25px;
+}
+
+#portifolo-container{
+  width: 50%;
+  height: 88vh;
+  padding: 25px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px 1px gray;
+}
+
+#portifolio-photo{
+  width: 250px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px 1px gray;
+}
+#simpledesc{
+  align-text: center;
+  padding-right: 9vh;
+  padding-left: 9vh;
+}
+#tabs{
+  width: 80%;
+}
+#tabs-ul{
+  text-align: center;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none
+}
+.tabs-li{
+  padding: 15px;
+  font-size: 15pt;
+  border-radius: 15px;
+}
+.tabs-li:hover{
+  background-color: #6b9bc7;
+  color: white;
+  cursor: pointer;
+}
+
+#social{
+  width: 80%;
+}
+#social-ul{
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none
+}
+.social-li i{
+  font-size: 25pt;
+  height: 150%;
+  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  background-color: #6b9bc7;
+  color: white;
+  cursor: pointer;
+}
+.social-li i:hover{
+  background-color: #376a99;
+}
+
+#hireme{
+  margin: 3vh;
+  border: none;
+  padding: 15px;
+  font-size: 15pt;
+  border-radius: 15px;
+  background-color: #6b9bc7;
+  color: white;
+  cursor: pointer;
+}
+
+#hireme:hover{
+  background-color: #376a99;
+}
